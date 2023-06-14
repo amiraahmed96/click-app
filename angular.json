@@ -131,5 +131,10 @@
       }
     }
   },
-  "defaultProject": "clinic"
+  "defaultProject": "clinic",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
